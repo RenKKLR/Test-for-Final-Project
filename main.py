@@ -1,4 +1,4 @@
-#from tkinter import *
+from tkinter import *
 
 def save():
   fn1 = firstname.get()
@@ -48,3 +48,5 @@ age.place(x = 15, y = 240)
 #place button to register
 register = Button(screen, text = "Register", command = save, bg = "grey")
 register.place(x =15, y = 290)
+
+screen.mainloop()
