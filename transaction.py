@@ -1,3 +1,4 @@
+
 class Transaction:
 
   def __init__(self,name,id,price,amount,date):
@@ -7,7 +8,4 @@ class Transaction:
     self.amount = amount
     self.date = date
     
-  def bought(self):
-    print("This stock "+self.name+" is bought")
-  def sold(self):
-    print("This stock "+self.name+" is sold")
+ 
